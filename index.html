@@ -10,10 +10,11 @@
 <!-- Intestazione     -->
     <header>
         <section> 
+<!-- immagini con path relativo -->
             <h1>Il mio viaggio a Londra</h1>
-            <img src="img/pexels-bill-emrich-230794-0.jpg" alt="" width="100px" height="200px">
-            <img src="img/pexels-bill-emrich-230794-1.jpg" alt="" width="100px" height="200px">
-            <img src="img/pexels-bill-emrich-230794-2.jpg" alt="" width="100px" height="200px">
+            <img src="img/pexels-bill-emrich-230794-0.jpg" alt="London Eye" width="100px" height="200px">
+            <img src="img/pexels-bill-emrich-230794-1.jpg" alt="Tamigi" width="100px" height="200px">
+            <img src="img/pexels-bill-emrich-230794-2.jpg" alt="Big Ban" width="100px" height="200px">
             <hr>
         </section>
     </header>
@@ -24,37 +25,47 @@
         <section> <!-- Prima sezione -->
             <h2>Le mie spese</h2>
             <table>
-                <tr>
-                  <th>Numero</th>
-                  <th>Descrizione</th>
-                  <th>Costo</th>
-                </tr>
-                <tr>
-                  <td>1</td>
-                  <td>Descrizione</td>
-                  <td>120€</td>
-                </tr>
-                <tr>
-                  <td>1</td>
-                  <td>Descrizione</td>
-                  <td>120€</td>
-                </tr>
-                <tr>
-                  <td>1</td>
-                  <td>Descrizione</td>
-                  <td>120€</td>
-                </tr>
-                <tr>
-                  <td>Totale</td>
-                  <td></td>
-                  <td>360€</td>
-                </tr>
+                <thead>
+                    <tr>
+                        <th>Numero</th>
+                        <th>Descrizione</th>
+                        <th>Costo</th>
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Descrizione</td>
+                        <td>120€</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Descrizione</td>
+                        <td>120€</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Descrizione</td>
+                        <td>120€</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Totale</td>
+                        <td>360€</td>
+                    </tr>
+                </tfoot>
+                
+                
+               
               </table>
               <hr>
         </section> <!-- Fine prima sezione  -->
         
         <section> <!-- Seconda sezione  -->
-            <h2>Cose da fare</h2>
+            <h3>Cose da fare</h3>
             <ul>
                <li>Visitare la Tower of London &Cross;</li> 
                <li>Visitare greenwich &radic;</li> 
@@ -65,24 +76,30 @@
         </section> <!-- Fine seconda sezione  -->
 
         <section> <!-- Terza sezione  -->
-            <h2>Info utili:</h2>
+            <h3>Info utili:</h3>
             <ol>
-                <li>Numeri utili di emergenza</li>
+                <li>
+                    Numeri utili di emergenza
                     <ul>
                         <li> <strong>999</strong> - Emergenza</li>
                         <li> <strong>101</strong> - Numero Polizia</li>
                         <li> <strong>111 </strong> - Numero assistenza medica</li>
                     </ul>
-                <li>Hotel</li>
+                </li>
+                <li>
+                    Hotel
                     <ul>
                         <li> <strong>Nome Hotel</strong> - Buckingham Palace</li>
                         <li> <strong>Indirizzo Hotel</strong> - Westminster, London SW1A 1AA, Regno Unito</li>
                     </ul>
-                <li>Aereo</li>
+                </li>
+                <li>
+                    Aereo
                     <ul>
                         <li> <strong>Volo di Andata</strong> - YI234X, ore 9:30 da Milano Malpensa</li>
                         <li> <strong>Volo di Ritorno</strong> - YI236X, ore 18:30 da London Heathrow</li>
                     </ul>
+                </li>
             </ol>
             <hr>
         </section> <!-- Fine terza sezione  -->
@@ -93,9 +110,12 @@
 <!-- Footer  -->
     <footer>
         <section>
-            <h2>Le Foto</h2>
-            <img src="https://www.abta.com/sites/default/files/styles/large/public/media/uploads/london-400x400-compressor_0.jpg" alt="" width="200px" height="200px">
-            <img src="https://pokerstarscareers.com/wp-content/uploads/2020/01/London-Wider-Area-e1597319992670-400x400.jpg" alt="" width="200px" height="200px">
+<!-- immagini con path assoluti -->
+            <h3>Le Foto</h3>
+            <div>
+                <img src="https://www.abta.com/sites/default/files/styles/large/public/media/uploads/london-400x400-compressor_0.jpg" alt="" width="200px" height="200px">
+                <img src="https://pokerstarscareers.com/wp-content/uploads/2020/01/London-Wider-Area-e1597319992670-400x400.jpg" alt="" width="200px" height="200px">
+            </div>     
         </section>
     </footer>
 <!-- Fine footer  -->
